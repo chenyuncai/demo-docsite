@@ -1,6 +1,6 @@
 ---
 slug: first-blog-post
-title: 第一篇博客
+title: First Blog
 ---
 
 In today's society, with the acceleration of globalization, communication between languages is becoming more and more important. In order to meet the needs of cross-language communication, a variety of translation software came into being. We have developed a new translation software product and created a document center site to facilitate our users to understand and use our products.
