@@ -1,6 +1,6 @@
 ---
 slug: second-blog-post
-title: 第二篇博客
+title: Second Blog
 ---
 
 The second blog content
