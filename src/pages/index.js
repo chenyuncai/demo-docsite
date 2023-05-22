@@ -14,15 +14,13 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{translate({message: 'My First Site'})}</h1>
-        <p className="hero__subtitle">{translate({message: 'Dinosaurs are cool'})}</p>
+        <h1 className="hero__title">{translate({message: '我的YiCAT文档站点'})}</h1>
+        <p className="hero__subtitle">{translate({message: 'YiCAT是一个非常优秀的工具'})}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-              <Translate>
-                Docusaurus Tutorial - 5min ⏱️
-              </Translate>
+              <Translate>五分钟学习YiCAT⏱️</Translate>
           </Link>
         </div>
       </div>

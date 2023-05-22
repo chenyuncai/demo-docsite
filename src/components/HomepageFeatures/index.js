@@ -2,9 +2,11 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
+import Translate, {translate} from '@docusaurus/Translate';
+
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: translate({message: '易用'}),
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -14,7 +16,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: translate({message: '聚焦重点'}),
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -24,7 +26,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: '多人协作',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -43,7 +45,7 @@ function Feature({Svg, title, description}) {
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
-        <p>{description}</p>
+        {/* <p>{description}</p> */}
       </div>
     </div>
   );

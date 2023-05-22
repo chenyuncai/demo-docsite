@@ -6,8 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Tmxmall Help Center',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -28,7 +27,7 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'zh',
     locales: ['en', 'zh'],
   },
 
@@ -64,9 +63,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Tmxmall Help Center',
         logo: {
-          alt: 'My Site Logo',
+          alt: '我的站点Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -74,9 +73,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'YiCAT文档中心',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://www.tmxmall.com',
             label: 'Tmxmall',
@@ -89,46 +88,42 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档中心',
             items: [
               {
-                label: 'Tutorial',
+                label: 'YiCAT',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '站点',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'Tmxmall',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
+                label: '改写匠',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'Twitter',
+                label: 'YiCAT',
                 href: 'https://twitter.com/docusaurus',
               },
             ],
           },
           {
-            title: 'More',
+            title: '关于我们',
             items: [
               {
-                label: 'Blog',
+                label: '博客',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 一者科技. 基于Docusaurus构建.`,
       },
       prism: {
         theme: lightCodeTheme,
