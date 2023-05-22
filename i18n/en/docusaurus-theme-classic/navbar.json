@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Tmxmall Help Center",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "我的站点Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.YiCAT文档中心": {
+    "message": "YiCAT Docs",
+    "description": "Navbar item with label YiCAT文档中心"
+  },
+  "item.label.博客": {
+    "message": "Blog",
+    "description": "Navbar item with label 博客"
+  },
+  "item.label.Tmxmall": {
+    "message": "Tmxmall",
+    "description": "Navbar item with label Tmxmall"
+  }
+}

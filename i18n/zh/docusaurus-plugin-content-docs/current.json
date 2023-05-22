@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.项目管理": {
+    "message": "项目管理",
+    "description": "The label for category 项目管理 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.其他": {
+    "message": "其他",
+    "description": "The label for category 其他 in sidebar tutorialSidebar"
+  }
+}

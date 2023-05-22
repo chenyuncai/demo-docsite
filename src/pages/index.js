@@ -14,7 +14,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{translate({message: '我的YiCAT文档站点'})}</h1>
+        <h1 className="hero__title">{translate({message: 'YiCAT文档站点'})}</h1>
         <p className="hero__subtitle">{translate({message: 'YiCAT是一个非常优秀的工具'})}</p>
         <div className={styles.buttons}>
           <Link
