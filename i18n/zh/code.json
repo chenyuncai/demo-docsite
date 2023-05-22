@@ -271,12 +271,12 @@
     "description": "The title of the tag list page"
   },
   "My First Site": {
-    "message": "My First Site"
+    "message": "我的第一个站点"
   },
   "Dinosaurs are cool": {
-    "message": "Dinosaurs are cool"
+    "message": "Dinosaurs是一个优秀的工具"
   },
   "Docusaurus Tutorial - 5min ⏱️": {
-    "message": "Docusaurus Tutorial - 5min ⏱️"
+    "message": "五分钟学习Docusaurus⏱️"
   }
 }
